@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<package>
+  <name>Final</name>
+  <version>0.0.0</version>
+  <description>The labpkg package</description>
+  <maintainer email="aalhag@todo.todo">aalhag</maintainer>
+  <license>TODO</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>roslib</build_depend>
+  <build_depend>ros_msgs</build_depend>
+
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>move_base_msgs</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+  <build_depend>tf2_ros</build_depend>
+
+  <build_depend>tf2</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>amcl</build_depend>
+  <build_depend>imu</build_depend>
+  <build_depend>nav_msgs</build_depend>
+	
+
+  <build_depend>roslaunch</build_depend>
+  <build_depend>amcl</build_depend>
+  <build_depend>frontier_exploration</build_depend>
+  <build_depend>gmapping</build_depend>
+  <build_depend>map_server</build_depend>
+  <build_depend>move_base</build_depend>
+  <build_depend>navfn</build_depend>
+  <build_depend>base_local_planner</build_depend>
+  <build_depend>dwa_local_planner</build_depend>
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>common_rosdeps</build_depend>
+  <build_depend>costmap_2d</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>nav_core</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>Costmap2DPublisher</build_depend>
+
+  <build_depend>my_tf_configuration_dep</build_depend>
+  <build_depend>my_odom_configuration_dep</build_depend>
+  <build_depend>my_sensor_configuration_dep</build_depend>
+
+  <build_depend>rotate_recovery</build_depend>
+  <build_depend>base_local_planner</build_depend>
+  <build_depend>carrot_planner</build_depend>
+  <build_depend>clear_costmap_recovery</build_depend>
+  <build_depend>logical_camera_plugin</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>message_runtime</build_depend>
+  <build_depend>laser_geometry</build_depend>
+
+
+
+
+
+  <run_depend>roslaunch</run_depend>
+  <run_depend>amcl</run_depend>
+  <run_depend>frontier_exploration</run_depend>
+  <run_depend>gmapping</run_depend>
+  <run_depend>map_server</run_depend>
+  <run_depend>move_base</run_depend>
+  <run_depend>navfn</run_depend>
+  <run_depend>base_local_planner</run_depend>
+  <run_depend>dwa_local_planner</run_depend>
+  <run_depend>cmake_modules</run_depend>
+  <run_depend>common_rosdeps</run_depend>
+  <run_depend>costmap_2d</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
+  <run_depend>nav_core</run_depend>
+  <run_depend>pluginlib</run_depend>
+  <run_depend>Costmap2DPublisher</run_depend>
+
+  <run_depend>my_tf_configuration_dep</run_depend>
+  <run_depend>my_odom_configuration_dep</run_depend>
+  <run_depend>my_sensor_configuration_dep</run_depend>
+
+  <run_depend>rotate_recovery</run_depend>
+  <run_depend>base_local_planner</run_depend>
+  <run_depend>carrot_planner</run_depend>
+  <run_depend>clear_costmap_recovery</run_depend>
+  <run_depend>logical_camera_plugin</run_depend>
+
+
+
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>roslib</run_depend>
+  <run_depend>ros_msgs</run_depend>
+
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>move_base_msgs</run_depend>
+  <run_depend>tf2_geometry_msgs</run_depend>
+  <run_depend>tf2_ros</run_depend>
+
+  <run_depend>tf2</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>amcl</run_depend>
+  <run_depend>imu</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>message_generation</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>laser_geometry</run_depend>
+
+  <export>
+  </export>
+</package>
