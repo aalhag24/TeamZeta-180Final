@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+
+  <arg name="map_file" default="$(find Final)/maps/mapfinal.yaml"/>
+
+  <!-- Run the map server -->
+	<node name="Server" pkg="map_server" type="map_server" args="$(arg map_file)"/>
+	<node name="Camera" pkg="Final" type="logicalCamera" output="screen" launch-prefix="gnome-terminal --command" />
+	<node name="Mapper" pkg="Final" type="Map" output="screen" launch-prefix="gnome-terminal --command" />
+
+
+</launch>
+

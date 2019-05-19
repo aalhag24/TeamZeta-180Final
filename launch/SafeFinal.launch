@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<node name="Camera" pkg="Final" type="logicalCamera" output="screen" launch-prefix="gnome-terminal --command" />
+	<node name="SaferRandomWalk" pkg="Final" type="saferandomwalk" output="screen" launch-prefix="gnome-terminal --command" />
+</launch>
+
